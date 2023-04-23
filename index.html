@@ -9,19 +9,19 @@
       body {
         background-color: #D77B3D;
       }
-      .img-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      .centered {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
      }
-      .center {
-      width: 50%;
+      .centered img {
+        width: 50%;
     	}
     </style>
   </head>
   <body>
-    <div class="img-container">
-     <img class="lazyload .center" src="images/logo_small.png" />
+    <div class="centered">
+     <img src="images/logo_small.png" />
     </div>
   </body>
 </html>
