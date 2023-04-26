@@ -5,30 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Castolon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
     <style type="text/css">
       body {
-        background-color: #D77B3D;
+        background-color: #FCEBD1;
       }
 
-      .logo {
+      .main {
         position: absolute;
         top: 50%;
         left: 50%;
         width: 600px;
         margin-top: -300px;
         margin-left: -300px;
+        text-align: center;
+      }
+
+      .main img {
+        margin-top: -40px;
+        width: 600px;
+      }
+
+      h1 {
+        margin-top: -10px;
+        padding: 0px;
+        font-size: 50px;
+        font-family: 'Playfair Display', serif;
+        color: #363444;
       }
 
       @media only screen and (max-width: 500px) {
-        .logo {
+        .main {
           width: 400px;
           margin-top: -200px;
           margin-left: -200px;
+        }
+
+        h1 {
+          font-size: 40px;
+        }
+
+        .main img {
+          margin-top: -60px;
+          width: 400px;
         }
       }
     </style>
   </head>
   <body>
-    <img class="logo" src="images/logo.png" />
+    <div class="main">
+      <img src="images/logo.png" />
+      <h1>Castolon</h1>
+    </div>
   </body>
 </html>
